@@ -1,0 +1,8 @@
+
+Comando para levantar el servidor desde la terminal. Importante situarse en la carpeta contenedora. Luego comprobarlo en el navegador:
+- localhost/index.html
+-localhost/prueba.html
+
+Si hay cambios hay que volver a ejecutar el comando (no se muy bien crear volúmenes).
+
+docker stop prueba-docker-java; docker build -t prueba-docker-java . && docker run --rm -p 80:80 --name prueba-docker-java -d prueba-docker-java
